@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CodaScriptPlugIn</string>
+	<key>CFBundleIconFile</key>
+	<string>plug-in</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.panic.CodaScriptPlugIn</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>CodaPlugInMinimumAPIVersion</key>
+	<string>3</string>
+	<key>NSPrincipalClass</key>
+	<string>CodaScriptPlugIn</string>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>input</key>
+			<string>document</string>
+			<key>name</key>
+			<string>Remove Trailing Whitespace</string>
+			<key>output</key>
+			<string>replaceDocument</string>
+			<key>script</key>
+			<string>remove_trailing_whitespace.rb</string>
+			<key>setInsertionPoint</key>
+			<true/>
+			<key>uuid</key>
+			<string>FD8C5D72-6B3C-48D9-A11C-47FE5321F9FD</string>
+		</dict>
+	</array>
+</dict>
+</plist>
